@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/BaseGame.unity
+    guid: d05b3b47bd81a434b9c56b38512bbf6a
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: f38eabb6b247a0a4eb69846131adabd4
+  - enabled: 0
+    path: Assets/Scenes/MonsterBar.unity
+    guid: 2badcb900392d1648b31bce4e7db4384
+  - enabled: 1
+    path: Assets/Scenes/Death.unity
+    guid: 73ef884c0ae42f7428c672b085c31fc5
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 589d5ba42ad458f4c9777bd87edc9204
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: d027a7b46a5bf704ca3106299a0e7268
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: fd8d26e52426d9b4190fa03a18d7e77a
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: 53e86a077b2e7784d83a78a8f97adb9c
+  - enabled: 1
+    path: Assets/Scenes/Level4.unity
+    guid: 7b58c123a8450504690dfaf9363d2861
+  - enabled: 1
+    path: Assets/Scenes/Level5.unity
+    guid: 211b91ce8b94e70489d1c2b0630ce726
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: 980654e4074a309428b8b87d335f5928
+  - enabled: 1
+    path: Assets/Scenes/MonsterEnding.unity
+    guid: 84275285574e8dd4bb66528043edadb7
+  - enabled: 1
+    path: Assets/Scenes/StayEnding.unity
+    guid: f7038286230b4ff448362f8de0037112
+  - enabled: 1
+    path: Assets/Scenes/DeathEnding.unity
+    guid: f6b56eee78b33924a900b996481e748f
+  - enabled: 1
+    path: Assets/Scenes/EscapeEnding.unity
+    guid: 51f5d9197f33f98439638a4152d702e9
+  - enabled: 1
+    path: Assets/Scenes/Death 1.unity
+    guid: b2f556f956d4b7e4fb6c3a6ad163d609
+  - enabled: 1
+    path: Assets/Scenes/Death 2.unity
+    guid: d51e8cd63b72f7b48b7ebaf21e45e1da
+  - enabled: 1
+    path: Assets/Scenes/Death 3.unity
+    guid: ad654929c8761074eaf309222c2469b0
+  - enabled: 1
+    path: Assets/Scenes/Death 4.unity
+    guid: 19a5bde4e7d6aac44817430b606da823
+  - enabled: 1
+    path: Assets/Scenes/Death 5.unity
+    guid: 1fc9f6fb6b1ced946add74dbe818e1cc
+  - enabled: 1
+    path: Assets/Scenes/Death 6.unity
+    guid: 100bc298150e98c45bdf1afe11442c75
+  - enabled: 1
+    path: Assets/Scenes/DeathAnimations/StatueDeath.unity
+    guid: e5a92e4211bd8a54ab505290ff1d34a8
+  - enabled: 1
+    path: Assets/Scenes/DeathAnimations/SamuraiDeath.unity
+    guid: 94bfa4053d9d46f4d88473ad2b42042d
+  - enabled: 1
+    path: Assets/Scenes/DeathAnimations/MummyDeath.unity
+    guid: f06d4c860f1a1bd4592da44b83f8a992
+  - enabled: 1
+    path: Assets/Scenes/DeathAnimations/LadyDeath.unity
+    guid: 3089090f4faf9af45bfdd2edfd73b8f2
+  - enabled: 1
+    path: Assets/Scenes/DeathAnimations/ChadDeath.unity
+    guid: d8a3f912ac1d17745bfa4525c3345187
+  - enabled: 1
+    path: Assets/Scenes/RecipeTutorial.unity
+    guid: 835e2a89060749e4f9a036a171eefec9
+  - enabled: 1
+    path: Assets/Scenes/DeathAnimations/BookDeath.unity
+    guid: 3e239ce942ad9aa41a9f3625b154377f
+  m_configObjects: {}

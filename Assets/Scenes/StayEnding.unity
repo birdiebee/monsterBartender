@@ -560,7 +560,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1221689314}
         m_TargetAssemblyTypeName: Reset, Assembly-CSharp
-        m_MethodName: ResetTheGame
+        m_MethodName: ReturnToMainMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1084,8 +1084,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 23, y: 56}
-  m_SizeDelta: {x: 644.6449, y: 288.55}
+  m_AnchoredPosition: {x: 19.0474, y: 71}
+  m_SizeDelta: {x: 652.55, y: 120.9051}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1744872651
 MonoBehaviour:
@@ -1170,7 +1170,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: 0.000042045413}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

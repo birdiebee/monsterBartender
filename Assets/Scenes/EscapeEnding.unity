@@ -377,7 +377,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 23, y: 102}
+  m_AnchoredPosition: {x: -0.0000019073, y: 102}
   m_SizeDelta: {x: 436.5051, y: 103.5283}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &642485540
@@ -426,7 +426,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1221689314}
         m_TargetAssemblyTypeName: Reset, Assembly-CSharp
-        m_MethodName: ResetTheGame
+        m_MethodName: ReturnToMainMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -508,8 +508,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 23, y: 56}
-  m_SizeDelta: {x: 644.6449, y: 288.55}
+  m_AnchoredPosition: {x: -0.0568, y: 53.266}
+  m_SizeDelta: {x: 598.5314, y: 249.2219}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &849912606
 MonoBehaviour:

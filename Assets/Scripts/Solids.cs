@@ -18,12 +18,14 @@ public class Solids : MonoBehaviour
     Vector3 lerpStart;
     Vector3 lerpEnd;
 
+    float lerpTime = 0.0f;
+    float lerpDuration = 0.6f;
+
     GameObject floating;
 
     private float dist;
 
-    private float speed = 0.008f;
-    private float lerpStatus = 0.0f;
+    private float speed = 0.04f;
 
     public void SetWorkSpace(GameObject ws)
     {
@@ -62,11 +64,14 @@ public class Solids : MonoBehaviour
         }
         if(isLerping)
         {
-            lerpStatus += speed;
-            float lerpVal = lerpStatus / dist;
-            transform.position = Vector3.Lerp(lerpStart, lerpEnd, lerpVal);
-            if(lerpVal >= 1f)
+            lerpTime += Time.deltaTime;
+            lerpTime = Mathf.Clamp(lerpTime, 0.0f, lerpDuration);
+            float t = lerpTime / lerpDuration;
+            transform.position = Vector3.Lerp(lerpStart, lerpEnd, t);
+            if(lerpTime >= lerpDuration)
             {
+                lerpTime = 0.0f;
+                isLerping = false;
                 Color a = floating.GetComponent<SpriteRenderer>().color;
                 a.a = 1f;
                 floating.GetComponent<SpriteRenderer>().color = a;

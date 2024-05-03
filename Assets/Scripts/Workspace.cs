@@ -52,6 +52,10 @@ public class Workspace : MonoBehaviour
 
     private float speed = 0.02f;
 
+    private float lerpDuration = 0.4f;
+
+    private float lerpTime = 0.0f;
+
     private int numColors = 0;
 
     private bool hasLiquid = false;
@@ -258,13 +262,15 @@ public class Workspace : MonoBehaviour
         }
         if(isLerping)
         {
-            lerpStatus += speed;
-            lerpedColor = Color.Lerp(lerpBegin, lerpEnd, lerpStatus);
+            lerpTime += Time.deltaTime;
+            lerpTime = Mathf.Clamp(lerpTime, 0.0f, lerpDuration);
+            float t = lerpTime / lerpDuration;
+            lerpedColor = Color.Lerp(lerpBegin, lerpEnd, t);
             MixLiquid(lerpedColor);
-            if(lerpedColor == lerpEnd)
+            if(lerpTime >= lerpDuration)
             {
+                lerpTime = 0.0f;
                 isLerping = false;
-                lerpStatus = 0.0f;
             }
         }
     }
